@@ -1,118 +1,189 @@
-# 💰 **Financial Control SaaS**  
+# 💰 Financial Control SaaS  
 *Gerenciador financeiro pessoal com design premium e análises avançadas*
 
 <div align="center">
 
-[![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)][angular]
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)][tailwind]
-[![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white)][d3]
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)][typescript]
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
 **Angular 18+ • Zoneless • Signals • Soft UI • Bento Grid**
 
-![Screenshot](https://github.com/user-attachments/assets/956054a4-028e-411d-b9c6-031819595466)
+<img width="1896" height="1113" alt="image" src="https://github.com/user-attachments/assets/956054a4-028e-411d-b9c6-031819595466" />
 
 </div>
 
 ---
 
-## 🎯 **Visão Geral**
+## 🎯 Visão Geral
 
-**Financial Control SaaS** é uma aplicação web moderna de controle financeiro pessoal e empresarial, projetada com foco em **experiência do usuário premium** e **análises visuais avançadas**. [file:1]
+O **Financial Control SaaS** é uma aplicação web de controle financeiro “High-End”, focada não apenas no registro de despesas, mas na **experiência do usuário** e na **análise de dados**.  
 
-Diferente de planilhas tradicionais, oferece:
-- **Interface Soft UI** com Neumorfismo e Glassmorphism
-- **Gráficos interativos** D3.js com hover effects
-- **KPIs financeiros** em tempo real
-- **Layout Bento Grid** responsivo (Desktop ↔ Mobile)
+Ele foi pensado para quem quer fugir de planilha feia e ter um painel financeiro com cara de produto SaaS moderno.
 
----
+Principais objetivos do projeto:
 
-## ✨ **Funcionalidades Principais**
-
-<div align="center">
-  
-| Feature | Descrição |
-|---------|-----------|
-| 🎨 **Soft UI Design** | Bordas ultra-arredondadas, sombras táteis, feedback visual | [file:1]
-| 💳 **Gestão Transações** | Entradas/saídas com categorização emoji automática | [file:1]
-| 📅 **Filtro Mensal** | Navegação histórica + planejamento futuro | [file:1]
-| 📊 **Donut Chart D3.js** | Gráfico responsivo com interação mouse | [file:1]
-| 📈 **Taxa Poupança %** | % da renda efetivamente guardada | [file:1]
-| ⏱️ **Média Diária** | Gasto médio/dia para controle orçamento | [file:1]
-| 💾 **LocalStorage** | Persistência automática navegador | [file:1]
-
-</div>
+- Prover uma **UI Soft** com experiência fluida e feedback visual agradável.  
+- Expor **KPIs financeiros** úteis no dia a dia (poupança, média diária, distribuição de gastos).  
+- Servir como **base de estudo** para Angular 18, Signals, Tailwind e D3.js em um caso real.
 
 ---
 
-## 🛠️ **Arquitetura Técnica**
+## 🎨 Sobre o Projeto
 
-ANGULAR 18+ (Zoneless + Signals)
-├── Standalone Components
-├── Tailwind CSS (Bento Grid Layout)
-├── D3.js (Gráficos vetoriais)
-└── LocalStorage (PWA-ready)
+Este projeto é uma aplicação web de controle financeiro de nível “High-End”, com foco em:
 
-text
+- **Experiência do usuário:** interface clara, minimalista e responsiva.  
+- **Análise de dados:** visão rápida de onde o dinheiro entra, sai e como é distribuído.
 
-**Performance otimizada** com abordagem moderna Angular, sem Zone.js para reatividade nativa. [file:1]
+Ele foi construído com a versão mais recente do **Angular (v18+)**, utilizando:
+
+- **Zoneless:** remoção do Zone.js para uma abordagem mais performática e moderna.  
+- **Signals:** reatividade nativa do Angular para estados previsíveis e otimização de renderização.  
+- **Tailwind CSS:** estilização utilitária, seguindo tendências de **Neumorfismo** e **Glassmorphism** para um visual Soft UI.
 
 ---
 
-## 🚀 **Como Executar**
+## ✨ Funcionalidades Principais
 
-### **Opção 1: Download ZIP (Recomendado para teste rápido)**
+- **Design “Soft UI”:**  
+  Interface limpa, com bordas ultra-arredondadas, sombras suaves e feedback visual tátil.
 
-1. Acesse: https://github.com/guell11/FinProSaas
-2. Clique verde **⟳ Code** → **Download ZIP**
-3. Extraia o arquivo `FinProSaas-main.zip`
-4. Abra terminal na pasta extraída
-5. Execute:
+- **Gestão de Transações:**  
+  Adição de **entradas** e **saídas** com categorização visual por emojis, facilitando a leitura rápida.
+
+- **Filtro Mensal Inteligente:**  
+  Permite navegar entre meses para ver históricos passados ou planejar o futuro.
+
+- **Gráfico Interativo (D3.js):**  
+  Donut Chart responsivo que reage ao mouse, detalhando gastos por categoria.
+
+- **KPIs Avançados:**
+  - **Taxa de Poupança (%):** mostra exatamente qual percentual da renda está sendo guardado.
+  - **Média Diária:** ajuda a monitorar o ritmo de gasto diário para não estourar o orçamento.
+
+- **Persistência Local:**  
+  Todos os dados são salvos automaticamente no navegador, via **LocalStorage**, dispensando backend neste MVP.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Framework:** [Angular](https://angular.io/) (Standalone Components, Signals, abordagem Zoneless).  
+- **Estilização:** [Tailwind CSS](https://tailwindcss.com/) (layout responsivo, Bento Grid).  
+- **Visualização de Dados:** [D3.js](https://d3js.org/) (gráficos vetoriais personalizados).  
+- **Linguagem:** [TypeScript](https://www.typescriptlang.org/).  
+- **Ícones:** SVG inline e emojis nativos para melhor performance.
+
+---
+
+## 📱 Layout
+
+O layout foi desenhado seguindo o conceito de **Bento Grid**:
+
+- Cada grupo de informação vive em seu **próprio cartão flutuante**.  
+- Em **Desktop**, o layout é horizontal, distribuindo os cartões lado a lado.  
+- Em **Mobile**, os cartões são reorganizados em uma coluna vertical, mantendo a legibilidade e o foco em cada bloco.
+
+---
+
+## 🚀 Como Executar o Projeto
+
+> ⚠️ Importante: o repositório contém um arquivo ZIP (`FinPro-main.zip`) com o código da aplicação.  
+> É necessário **extrair esse ZIP** antes de rodar os comandos.
+
+### Opção 1 – Download ZIP pelo GitHub
+
+1. Acesse o repositório:  
+   `https://github.com/guell11/FinProSaas`
+2. Clique no botão **Code** → **Download ZIP**.  
+3. Extraia o arquivo baixado (ex.: `FinProSaas-main.zip`).  
+4. Dentro da pasta extraída, localize o arquivo `FinPro-main.zip` e **extraia também**.  
+5. Abra um terminal dentro da pasta extraída `FinPro-main`.  
+6. Instale as dependências:
+
 npm install
+
+
+7. Inicie o servidor de desenvolvimento:
+
 npm start
 
-text
-6. Acesse: `http://localhost:4200` [file:1]
+ou
+ng serve
 
-### **Opção 2: Git Clone**
+
+8. Acesse no navegador:  
+
+http://localhost:4200
+
+
+
+---
+
+### Opção 2 – git clone
+
+1. Clone o repositório:
+
 git clone https://github.com/guell11/FinProSaas.git
 cd FinProSaas
-npm install
-npm start
 
 text
 
----
+2. Dentro da pasta, extraia o arquivo `FinPro-main.zip`.  
+3. Entre na pasta extraída:
 
-## 📱 **Layout Responsivo**
+cd FinPro-main
 
-| Desktop | Mobile |
-|---------|--------|
-| ![Desktop](https://github.com/user-attachments/assets/956054a4-028e-411d-b9c6-031819595466) | Cards empilhados verticalmente |
-| Bento Grid horizontal | Stack vertical fluido [file:1] |
 
----
+4. Instale as dependências:
 
-## 🤝 **Próximos Passos & Contribuições**
+npm install
 
-- [ ] Backend Node.js/Supabase
-- [ ] Autenticação Firebase
-- [ ] Export PDF/Excel
-- [ ] PWA completa
-- [ ] Integração Open Banking
+text
 
-**Contribuições bem-vindas!** 🚀 Fork, PRs, issues. [file:1]
+5. Rode o projeto:
 
----
+npm start
 
-<div align="center">
+ou
+ng serve
 
-[![GitHub stars](https://img.shields.io/github/stars/guell11/FinProSaas?style=social)](https://github.com/guell11/FinProSaas)
-[![GitHub forks](https://img.shields.io/github/forks/guell11/FinProSaas?style=social)](https://github.com/guell11/FinProSaas)
 
-**guell11/FinProSaas** • MIT License
 
-</div>
+6. Acesse: `http://localhost:4200`
 
 ---
+
+## 🧭 Roadmap / Próximos Passos (Ideias)
+
+- Integração com backend (Node.js, NestJS ou outra stack).  
+- Autenticação e multiusuário (ex.: Firebase/Auth0).  
+- Exportação de relatórios em PDF/CSV.  
+- Suporte a múltiplas carteiras/contas.  
+- Internacionalização (pt-BR / en-US).  
+- Transformar em PWA (instalável no celular).
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são muito bem-vindas:
+
+1. Faça um **fork** do repositório.  
+2. Crie uma branch: `git checkout -b feature/nome-da-feature`.  
+3. Commit suas alterações: `git commit -m 'feat: descrição'`.  
+4. Envie a branch: `git push origin feature/nome-da-feature`.  
+5. Abra um **Pull Request** descrevendo a mudança.
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença **MIT**.  
+Sinta-se à vontade para usar, estudar, modificar e contribuir.
+
+---
+
+Feito com ❤️ para quem está cansado de sofrer com gestão financeira em planilha cinza.
